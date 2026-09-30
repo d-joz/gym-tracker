@@ -1,0 +1,1434 @@
+{
+  "monday": {
+    "name": "Upper Body",
+    "desc": "Focus on horizontal and vertical pushing/pulling compound movements, shoulder stability, and arms.",
+    "warm-up": [
+      {
+        "name": "Treadmill (Brisk Walk / Light Jog)",
+        "desc": "Full body temperature & blood flow",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 240,
+            "max": 300
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Speed: 5.0-6.0 km/h (flat or 1% incline); keep it an easy conversational pace"
+      },
+      {
+        "name": "Arm Circles & Cross Swings",
+        "desc": "Shoulders & chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Controlled, fluid circles each direction"
+      },
+      {
+        "name": "Cat-Cow Pose",
+        "desc": "Spine mobility",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Floor or hands on bench"
+      },
+      {
+        "name": "Bodyweight Squats",
+        "desc": "Hips, knees & ankles",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Slow tempo, full depth"
+      },
+      {
+        "name": "Inchworms",
+        "desc": "Hamstrings & core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 6,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Walk hands out to plank, walk feet in"
+      },
+      {
+        "name": "Exercise Acclimation Set",
+        "desc": "Specific joint prep",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Empty bar or light dumbbell before your first heavy exercise"
+      }
+    ],
+    "workouts": [
+      {
+        "name": "Barbell Bench Press",
+        "desc": "Chest, shoulders, triceps",
+        "volume": {
+          "weight": {
+            "min": 15,
+            "max": 20
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 8,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: Empty bar (15-20 kg)"
+      },
+      {
+        "name": "Bent-Over Barbell Row",
+        "desc": "Upper back, lats, biceps",
+        "volume": {
+          "weight": {
+            "min": 15,
+            "max": 20
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: Empty bar (15-20 kg)"
+      },
+      {
+        "name": "Seated DB Shoulder Press",
+        "desc": "Anterior and lateral deltoids, triceps",
+        "volume": {
+          "weight": {
+            "min": 5,
+            "max": 7.5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 5-7.5 kg per hand"
+      },
+      {
+        "name": "DB Hammer Curls",
+        "desc": "Biceps and brachioradialis",
+        "volume": {
+          "weight": {
+            "min": 5,
+            "max": 7.5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 2,
+          "per-side": true
+        },
+        "notes": "Starting weight: 5-7.5 kg per hand"
+      },
+      {
+        "name": "Bench Dips",
+        "desc": "Triceps and chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 15,
+          "sets": 2,
+          "per-side": false
+        },
+        "notes": "Bodyweight"
+      }
+    ],
+    "cool-down": [
+      {
+        "name": "Doorway / Wall Chest Stretch",
+        "desc": "Chest & anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Overhead Triceps & Lat Stretch",
+        "desc": "Triceps & upper back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing / Seated Hamstring Stretch",
+        "desc": "Hamstrings & lower back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing Quad Stretch",
+        "desc": "Quadriceps & hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Child's Pose",
+        "desc": "Lower back & lats",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 30,
+            "max": 45
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Hold 30-45s"
+      }
+    ]
+  },
+  "tuesday": {
+    "name": "Lower Body",
+    "desc": "Compound leg development emphasizing quads, glutes, hamstrings, and isometric core stability.",
+    "warm-up": [
+      {
+        "name": "Treadmill (Brisk Walk / Light Jog)",
+        "desc": "Full body temperature & blood flow",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 240,
+            "max": 300
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Speed: 5.0-6.0 km/h (flat or 1% incline); keep it an easy conversational pace"
+      },
+      {
+        "name": "Arm Circles & Cross Swings",
+        "desc": "Shoulders & chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Controlled, fluid circles each direction"
+      },
+      {
+        "name": "Cat-Cow Pose",
+        "desc": "Spine mobility",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Floor or hands on bench"
+      },
+      {
+        "name": "Bodyweight Squats",
+        "desc": "Hips, knees & ankles",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Slow tempo, full depth"
+      },
+      {
+        "name": "Inchworms",
+        "desc": "Hamstrings & core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 6,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Walk hands out to plank, walk feet in"
+      },
+      {
+        "name": "Exercise Acclimation Set",
+        "desc": "Specific joint prep",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Empty bar or light dumbbell before your first heavy exercise"
+      }
+    ],
+    "workouts": [
+      {
+        "name": "DB Goblet Squat",
+        "desc": "Quadriceps, glutes, core",
+        "volume": {
+          "weight": {
+            "min": 10,
+            "max": 12.5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: 10-12.5 kg"
+      },
+      {
+        "name": "DB Romanian Deadlift",
+        "desc": "Hamstrings, glutes, lower back",
+        "volume": {
+          "weight": {
+            "min": 7.5,
+            "max": 10
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 7.5-10 kg per hand"
+      },
+      {
+        "name": "DB Walking Lunges",
+        "desc": "Quads, glutes, balance",
+        "volume": {
+          "weight": {
+            "min": 0,
+            "max": 5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Bodyweight (or 5 kg / hand); 10 reps per leg"
+      },
+      {
+        "name": "Standard Plank",
+        "desc": "Core endurance and stability",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 45,
+            "max": 45
+          },
+          "reps": 1,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Bodyweight; hold for 45s per set"
+      }
+    ],
+    "cool-down": [
+      {
+        "name": "Doorway / Wall Chest Stretch",
+        "desc": "Chest & anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Overhead Triceps & Lat Stretch",
+        "desc": "Triceps & upper back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing / Seated Hamstring Stretch",
+        "desc": "Hamstrings & lower back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing Quad Stretch",
+        "desc": "Quadriceps & hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Child's Pose",
+        "desc": "Lower back & lats",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 30,
+            "max": 45
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Hold 30-45s"
+      }
+    ]
+  },
+  "wednesday": {
+    "name": "Push",
+    "desc": "Chest, anterior/lateral deltoids, and triceps isolation with dumbbells and bodyweight leverage.",
+    "warm-up": [
+      {
+        "name": "Treadmill (Brisk Walk / Light Jog)",
+        "desc": "Full body temperature & blood flow",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 240,
+            "max": 300
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Speed: 5.0-6.0 km/h (flat or 1% incline); keep it an easy conversational pace"
+      },
+      {
+        "name": "Arm Circles & Cross Swings",
+        "desc": "Shoulders & chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Controlled, fluid circles each direction"
+      },
+      {
+        "name": "Cat-Cow Pose",
+        "desc": "Spine mobility",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Floor or hands on bench"
+      },
+      {
+        "name": "Bodyweight Squats",
+        "desc": "Hips, knees & ankles",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Slow tempo, full depth"
+      },
+      {
+        "name": "Inchworms",
+        "desc": "Hamstrings & core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 6,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Walk hands out to plank, walk feet in"
+      },
+      {
+        "name": "Exercise Acclimation Set",
+        "desc": "Specific joint prep",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Empty bar or light dumbbell before your first heavy exercise"
+      }
+    ],
+    "workouts": [
+      {
+        "name": "Flat DB Bench Press",
+        "desc": "Chest, triceps, anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": 7.5,
+            "max": 10
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 7.5-10 kg per hand"
+      },
+      {
+        "name": "Feet-Elevated Push-Ups",
+        "desc": "Upper chest, shoulders, core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Bodyweight (feet on bench)"
+      },
+      {
+        "name": "DB Lateral Raises",
+        "desc": "Lateral deltoids",
+        "volume": {
+          "weight": {
+            "min": 2.5,
+            "max": 4
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 15,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 2.5-4 kg per hand"
+      },
+      {
+        "name": "Overhead DB Tricep Extension",
+        "desc": "Triceps long head",
+        "volume": {
+          "weight": {
+            "min": 7.5,
+            "max": 10
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: 7.5-10 kg (both hands on 1 DB)"
+      }
+    ],
+    "cool-down": [
+      {
+        "name": "Doorway / Wall Chest Stretch",
+        "desc": "Chest & anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Overhead Triceps & Lat Stretch",
+        "desc": "Triceps & upper back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing / Seated Hamstring Stretch",
+        "desc": "Hamstrings & lower back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing Quad Stretch",
+        "desc": "Quadriceps & hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Child's Pose",
+        "desc": "Lower back & lats",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 30,
+            "max": 45
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Hold 30-45s"
+      }
+    ]
+  },
+  "thursday": {
+    "name": "Pull",
+    "desc": "Back thickness and width, traps, biceps, and lower abdominal core strength.",
+    "warm-up": [
+      {
+        "name": "Treadmill (Brisk Walk / Light Jog)",
+        "desc": "Full body temperature & blood flow",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 240,
+            "max": 300
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Speed: 5.0-6.0 km/h (flat or 1% incline); keep it an easy conversational pace"
+      },
+      {
+        "name": "Arm Circles & Cross Swings",
+        "desc": "Shoulders & chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Controlled, fluid circles each direction"
+      },
+      {
+        "name": "Cat-Cow Pose",
+        "desc": "Spine mobility",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Floor or hands on bench"
+      },
+      {
+        "name": "Bodyweight Squats",
+        "desc": "Hips, knees & ankles",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Slow tempo, full depth"
+      },
+      {
+        "name": "Inchworms",
+        "desc": "Hamstrings & core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 6,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Walk hands out to plank, walk feet in"
+      },
+      {
+        "name": "Exercise Acclimation Set",
+        "desc": "Specific joint prep",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Empty bar or light dumbbell before your first heavy exercise"
+      }
+    ],
+    "workouts": [
+      {
+        "name": "One-Arm DB Row",
+        "desc": "Lats, rhomboids, biceps",
+        "volume": {
+          "weight": {
+            "min": 7.5,
+            "max": 10
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 7.5-10 kg per side"
+      },
+      {
+        "name": "Barbell Shrugs",
+        "desc": "Upper trapezius",
+        "volume": {
+          "weight": {
+            "min": 25,
+            "max": 30
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: 25-30 kg total"
+      },
+      {
+        "name": "Standing DB Bicep Curls",
+        "desc": "Biceps brachii",
+        "volume": {
+          "weight": {
+            "min": 5,
+            "max": 7.5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 5-7.5 kg per hand"
+      },
+      {
+        "name": "Lying Leg Raises on Bench",
+        "desc": "Lower abdominals and hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 15,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Bodyweight"
+      }
+    ],
+    "cool-down": [
+      {
+        "name": "Doorway / Wall Chest Stretch",
+        "desc": "Chest & anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Overhead Triceps & Lat Stretch",
+        "desc": "Triceps & upper back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing / Seated Hamstring Stretch",
+        "desc": "Hamstrings & lower back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing Quad Stretch",
+        "desc": "Quadriceps & hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Child's Pose",
+        "desc": "Lower back & lats",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 30,
+            "max": 45
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Hold 30-45s"
+      }
+    ]
+  },
+  "friday": {
+    "name": "Legs & Shoulders",
+    "desc": "Posterior chain loading, unilateral quad and glute strength, overhead pressing, and calf endurance.",
+    "warm-up": [
+      {
+        "name": "Treadmill (Brisk Walk / Light Jog)",
+        "desc": "Full body temperature & blood flow",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 240,
+            "max": 300
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Speed: 5.0-6.0 km/h (flat or 1% incline); keep it an easy conversational pace"
+      },
+      {
+        "name": "Arm Circles & Cross Swings",
+        "desc": "Shoulders & chest",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Controlled, fluid circles each direction"
+      },
+      {
+        "name": "Cat-Cow Pose",
+        "desc": "Spine mobility",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Floor or hands on bench"
+      },
+      {
+        "name": "Bodyweight Squats",
+        "desc": "Hips, knees & ankles",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 12,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Slow tempo, full depth"
+      },
+      {
+        "name": "Inchworms",
+        "desc": "Hamstrings & core",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 6,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Walk hands out to plank, walk feet in"
+      },
+      {
+        "name": "Exercise Acclimation Set",
+        "desc": "Specific joint prep",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Empty bar or light dumbbell before your first heavy exercise"
+      }
+    ],
+    "workouts": [
+      {
+        "name": "Barbell Romanian Deadlift",
+        "desc": "Hamstrings, glutes, lower back",
+        "volume": {
+          "weight": {
+            "min": 25,
+            "max": 30
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": false
+        },
+        "notes": "Starting weight: 25-30 kg total"
+      },
+      {
+        "name": "Bulgarian Split Squats",
+        "desc": "Quadriceps, glutes",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 8,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Bodyweight (rear foot on bench); 8 reps per leg"
+      },
+      {
+        "name": "Standing DB Overhead Press",
+        "desc": "Deltoids, triceps, core stability",
+        "volume": {
+          "weight": {
+            "min": 5,
+            "max": 7.5
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 10,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 5-7.5 kg per hand"
+      },
+      {
+        "name": "DB Calf Raises",
+        "desc": "Gastrocnemius and soleus",
+        "volume": {
+          "weight": {
+            "min": 7.5,
+            "max": 10
+          },
+          "duration": {
+            "min": null,
+            "max": null
+          },
+          "reps": 20,
+          "sets": 3,
+          "per-side": true
+        },
+        "notes": "Starting weight: 7.5-10 kg per hand"
+      }
+    ],
+    "cool-down": [
+      {
+        "name": "Doorway / Wall Chest Stretch",
+        "desc": "Chest & anterior deltoids",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Overhead Triceps & Lat Stretch",
+        "desc": "Triceps & upper back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing / Seated Hamstring Stretch",
+        "desc": "Hamstrings & lower back",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Standing Quad Stretch",
+        "desc": "Quadriceps & hip flexors",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 20,
+            "max": 30
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": true
+        },
+        "notes": "Hold 20-30s per side"
+      },
+      {
+        "name": "Child's Pose",
+        "desc": "Lower back & lats",
+        "volume": {
+          "weight": {
+            "min": null,
+            "max": null
+          },
+          "duration": {
+            "min": 30,
+            "max": 45
+          },
+          "reps": null,
+          "sets": 1,
+          "per-side": false
+        },
+        "notes": "Hold 30-45s"
+      }
+    ]
+  },
+  "saturday": {
+    "name": "Rest & Recovery",
+    "desc": "Active recovery, gentle mobility, hydration, and central nervous system rest.",
+    "warm-up": [],
+    "workouts": [],
+    "cool-down": []
+  },
+  "sunday": {
+    "name": "Rest & Recovery",
+    "desc": "Full physical rest, meal prep, and recovery to prepare for the upcoming training week.",
+    "warm-up": [],
+    "workouts": [],
+    "cool-down": []
+  }
+}
