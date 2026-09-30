@@ -36,3 +36,29 @@ export const SCWorkoutType = styled.h3`
   font-size: 22px;
   color: var(--fg);
 `;
+
+export const SCHeader = styled.header`
+  display: grid;
+  grid-template-columns: 4em auto 4em;
+  padding: 1em;
+  align-items: center;
+`;
+
+export const SCBackIconButton = styled.button.attrs({ type: "button" })`
+  width: 2.5em;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  overflow: "hidden";
+
+  background-color: #fff;
+  border: 1px solid #00000074;
+  box-shadow: 0 0 5px 0 #00000039;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > img {
+    width: 1em;
+  }
+`;

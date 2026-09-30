@@ -1,10 +1,16 @@
 import { useToday } from "./hooks/useToday";
-import "./App.css";
-import type { DayRoutine, DaysString, View } from "./type";
 import { useState } from "react";
 import { Home } from "./views/Home";
+import {
+  SCBackIconButton,
+  SCCard,
+  SCHeader,
+  SCStack,
+} from "./components/styled/BaseComponents";
+import type { DayRoutine, DaysString, Routine, View } from "./type";
 import routine from "./data/routine.json";
 import backIcon from "./assets/back-icon.png";
+import "./App.css";
 import styled from "styled-components";
 
 function App() {
@@ -12,7 +18,7 @@ function App() {
   const today = useToday();
 
   return view.name === "home" ? (
-    <Home {...{ today, setView }} />
+    <Home {...{ today, setView, routine: routine as unknown as Routine }} />
   ) : view.name === "day-detailed" ? (
     <DayView
       {...{ day: view.day, setView, data: routine[view.day] as DayRoutine }}
@@ -21,31 +27,6 @@ function App() {
     ""
   );
 }
-const SCHeader = styled.header`
-  display: grid;
-  grid-template-columns: 4em auto 4em;
-  padding: 1em;
-  align-items: center;
-`;
-
-const SCBackIconButton = styled.button.attrs({ type: "button" })`
-  width: 3rem;
-  aspect-ratio: 1;
-  border-radius: 100vw;
-  overflow: "hidden";
-
-  background-color: #fff;
-  border: 1px solid #00000074;
-  box-shadow: 0 0 5px 0 #00000039;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  & > img {
-    width: 1.4em;
-  }
-`;
 
 const BackIconBtn = ({
   setView,
@@ -70,10 +51,74 @@ const DayView = ({
     <div style={{ width: "100%", height: "100%" }}>
       <SCHeader>
         <BackIconBtn {...{ setView }} />
-        <h1 style={{ textAlign: "center", fontSize: "26px" }}>{data.name}</h1>
+        <h1 style={{ textAlign: "center", fontSize: "24px" }}>{data.name}</h1>
       </SCHeader>
-      <pre>{day + JSON.stringify(data.workouts, null, 2)}</pre>
+      <SCStack>
+        {data.workouts.map((x) => (
+          <ExerciseCard
+            {...{
+              name: x.name,
+              desc: x.desc,
+              duration: x.volume.duration.max,
+              weight: x.volume.weight.max,
+              sets: x.volume.sets,
+              reps: x.volume.reps,
+              perSide: x.volume["per-side"],
+            }}
+          >
+            {/* <pre>{JSON.stringify(x.volume, null, 2)}</pre> */}
+          </ExerciseCard>
+        ))}
+      </SCStack>
     </div>
   );
 };
 export default App;
+
+const ExerciseCard = ({
+  name,
+  desc,
+  duration,
+  weight,
+  sets,
+  reps,
+  perSide,
+}: {
+  name: string;
+  desc: string;
+  duration: number | null;
+  weight: number | null;
+  sets: number;
+  reps: number;
+  perSide: boolean;
+}) => {
+  return (
+    <SCExerciseCard>
+      <h3> {name}</h3>
+      <p style={{ color: "#555" }}>{desc}</p>
+      <div style={{ display: "flex", alignItems: "center", gap: "1em" }}>
+        {duration && <Unit>{duration + " S"}</Unit>}
+        {weight && <Unit>{weight + " KG"}</Unit>}
+        <Unit>{reps + " x " + sets}</Unit>
+        {perSide && <Unit>Per Side</Unit>}
+      </div>
+      {/* <pre>{JSON.stringify(x.volume, null, 2)}</pre> */}
+    </SCExerciseCard>
+  );
+};
+
+const SCExerciseCard = styled(SCCard)`
+  flex-direction: column;
+  align-items: baseline;
+  gap: 0.6em;
+  padding: 1em;
+`;
+
+const Unit = styled.span`
+  display: block;
+  padding: 0.4em 0.6em;
+  border: 1px solid hsla(0, 0%, 0%, 0.2);
+  border-radius: 0.4em;
+  box-shadow: 0 0 6px hsla(0, 0%, 0%, 0.1);
+  font-weight: 900;
+`;
