@@ -1,6 +1,6 @@
 import { useToday } from "./hooks/useToday";
 import "./App.css";
-import type { DayRoutine, DaysString, Routine, View } from "./type";
+import type { DayRoutine, DaysString, View } from "./type";
 import { useState } from "react";
 import { Home } from "./views/Home";
 import routine from "./data/routine.json";
@@ -72,7 +72,7 @@ const DayView = ({
         <BackIconBtn {...{ setView }} />
         <h1 style={{ textAlign: "center", fontSize: "26px" }}>{data.name}</h1>
       </SCHeader>
-      <pre>{JSON.stringify(data.workouts, null, 2)}</pre>
+      <pre>{day + JSON.stringify(data.workouts, null, 2)}</pre>
     </div>
   );
 };
